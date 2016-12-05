@@ -9,19 +9,19 @@ require 'about_arrays' #Done
 require 'about_array_assignment' #Done
 require 'about_hashes' #Done
 require 'about_strings' #Done
-require 'about_symbols'
-require 'about_regular_expressions'
-require 'about_methods'
+require 'about_symbols' #Done
+require 'about_regular_expressions' #Done TODO Revisit
+require 'about_methods' #Done
 in_ruby_version("2") do
-  require 'about_keyword_arguments'
+  require 'about_keyword_arguments' #Done
 end
-require 'about_constants'
-require 'about_control_statements'
-require 'about_true_and_false'
-require 'about_triangle_project'
-require 'about_exceptions'
-require 'about_triangle_project_2'
-require 'about_iteration'
+require 'about_constants' #Done
+require 'about_control_statements' #Done
+require 'about_true_and_false' #Done
+require 'about_triangle_project' #Done
+require 'about_exceptions' #Done
+require 'about_triangle_project_2' #Done
+require 'about_iteration' #Done TODO Need check why not open test file
 require 'about_blocks'
 require 'about_sandwich_code'
 require 'about_scoring_project'
