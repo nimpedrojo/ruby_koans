@@ -21,10 +21,10 @@ require 'about_true_and_false' #Done
 require 'about_triangle_project' #Done
 require 'about_exceptions' #Done
 require 'about_triangle_project_2' #Done
-require 'about_iteration' #Done TODO Need check why not open test file
-require 'about_blocks'
-require 'about_sandwich_code'
-require 'about_scoring_project'
+require 'about_iteration' #Done
+require 'about_blocks' #Done
+require 'about_sandwich_code' #Done
+require 'about_scoring_project' #Done TODO need refactor and clean.Funny exercise ¡¡¡
 require 'about_classes'
 require 'about_open_classes'
 require 'about_dice_project'

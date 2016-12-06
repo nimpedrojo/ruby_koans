@@ -97,10 +97,10 @@ class AboutIteration < Neo::Koan
     assert_equal [11,12,13], result
 
     # Files act like a collection of lines
-    #File.open("example_file.txt") do |file|
-    #  upcase_lines = file.map { |line| line.strip.upcase }
-    #  assert_equal ['THIS','IS','A','TEST'], upcase_lines
-    #end
+    File.open("example_file.txt") do |file|
+      upcase_lines = file.map { |line| line.strip.upcase }
+      assert_equal ['THIS','IS','A','TEST'], upcase_lines
+    end
 
     # NOTE: You can create your own collections that work with each,
     # map, select, etc.
